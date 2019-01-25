@@ -21,4 +21,4 @@ If we launch liquibase without parameter context then all files will be executed
 
 If we launch liquibase with parameter `-Dliquibase.contexts='!local'` then all files will be executed without those that contains context *local*. 
 
-```mvn clean install -e -Dliquibase.contexts='!local'```
+```mvn clean install -Dliquibase.contexts='!local'```
